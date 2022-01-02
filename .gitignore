@@ -1,0 +1,12 @@
+node_modules
+build
+.secrets.json
+dist
+
+.env
+
+
+
+# Logs
+logs
+*.log

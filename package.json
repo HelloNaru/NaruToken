@@ -1,0 +1,11 @@
+{
+  "name": "naru-token",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/HelloNaru/naru-token.git",
+  "author": "hsyang <hsinhd71@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "truffle": "^5.4.26"
+  }
+}
