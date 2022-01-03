@@ -8,7 +8,7 @@ import "@openzeppelin/contracts-upgradeable/utils/math/SafeMathUpgradeable.sol";
 
 contract NaruToken is Initializable, ERC20Upgradeable, UUPSUpgradeable,OwnableUpgradeable {
     function initialize(uint256 mintAmount) public initializer{
-        __ERC20_init("Mars", "MARS"); 
+        __ERC20_init("Naru Token", "$NARU"); 
         __Ownable_init();
         _mint(msg.sender, mintAmount);
     }
